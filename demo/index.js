@@ -322,15 +322,17 @@ const saveFinalResults = () => {
       parseFloat(eyetrack_gesture_score)
     ).toFixed(2);
 
-  const finalResults = {
-    action_score: parseFloat(action_score),
-    hand_count_score: parseFloat(hand_count_score),
-    emotion_score: parseFloat(averageEmotionScore),
-    face_gesture_score: parseFloat(face_gesture_score),
-    body_gesture_score: parseFloat(body_gesture_score),
-    eyetrack_gesture_score: parseFloat(eyetrack_gesture_score)
-  };
+    finalResults = {
+      action_score: parseFloat(action_score),
+      hand_count_score: parseFloat(hand_count_score),
+      emotion_score: parseFloat(averageEmotionScore),
+      face_gesture_score: parseFloat(face_gesture_score),
+      body_gesture_score: parseFloat(body_gesture_score),
+      eyetrack_gesture_score: parseFloat(eyetrack_gesture_score)
+    };
+  }
 
+  // finalResults를 JSON 파일로 저장
   const dataStr = JSON.stringify(finalResults, null, 2);
   const blob = new Blob([dataStr], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
@@ -340,11 +342,10 @@ const saveFinalResults = () => {
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
-  };
-}
+};
 
-document.getElementById('save-frame-results').addEventListener('click', saveFrameResults);
-document.getElementById('save-final-results').addEventListener('click', saveFinalResults);
+  document.getElementById('save-frame-results').addEventListener('click', saveFrameResults);
+  document.getElementById('save-final-results').addEventListener('click', saveFinalResults);
 
 const drawResults = async (input) => {
   frameCount++; // 여기서만 frameCount를 증가시킴
