@@ -190,27 +190,28 @@ const handGestures = [
 ];
 
 const weights = {
-  "angry": 0.2,
-  "disgust": 0.1,
-  "fear": 0.1,
-  "happy": 1.0,
-  "sad": 0.4,
-  "surprise": 0.5,
-  "neutral": 1.0
+  "angry": 16,
+  "disgust": 18,
+  "fear": 18,
+  "sad": 12,
+  "surprise": 10
 };
+
+const maxScore = 20;
 
 const scaleEmotionsTo20 = (emotions) => {
-  // 감정 점수와 가중치를 곱한 값을 합산
-  const totalScore = emotions.reduce((sum, emotion) => sum + (parseFloat(emotion.score) * weights[emotion.emotion]), 0);
-  // 가중치 합계 계산
-  const maxPossibleScore = Object.values(weights).reduce((sum, weight) => sum + weight, 0);
-  // 정규화된 점수 계산 (0-1 범위로)
-  const normalizedScore = totalScore / maxPossibleScore;
-  // 20점 만점으로 스케일링 및 기본 점수 10점 추가
-  const scaledScore = (normalizedScore * 20) + 10;
-  return Math.min(scaledScore, 20).toFixed(2);
-};
+  // 감정 점수와 가중치를 곱한 감점 값 합산
+  const totalDeduction = emotions.reduce((sum, emotion) => {
+    if (weights[emotion.emotion] !== undefined) {
+      return sum + (parseFloat(emotion.score) * weights[emotion.emotion]);
+    }
+    return sum;
+  }, 0);
 
+  // 20점에서 감점 값을 빼서 최종 점수 계산
+  const scaledScore = maxScore - totalDeduction;
+  return Math.max(scaledScore, 0).toFixed(2); // 점수는 최소 0으로 제한
+};
 
 const saveDetectedResult = (result) => {
   const uniqueGestures = [...new Set(result.gesture?.map(gesture => gesture.gesture))];
@@ -278,6 +279,7 @@ const saveDetectedResult = (result) => {
   detectedResults.push(filteredResult);
   console.log('Frame result saved:', filteredResult);
 };
+
 
 const saveFrameResults = () => {
   const dataStr = JSON.stringify(detectedResults, null, 2);
