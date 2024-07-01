@@ -4,7 +4,6 @@
 import { Human } from '../dist/human.esm.js'; // equivalent of @vladmandic/human
 import Menu from './helpers/menu.js';
 import GLBench from './helpers/gl-bench.js';
-import webRTC from './helpers/webrtc.js';
 import jsonView from './helpers/jsonview.js';
 
 let human;
@@ -12,7 +11,12 @@ const detectedResults = []; // 프레임마다 결과 저장할 배열
 let lastDraw = 0; // Frame count하기위한 변수
 let frameCount = 0; // 프레임 카운터
 
-let userConfig = {};
+let userConfig = {
+  face: { enabled: true, detector: {}, mesh: {}, iris: {}, description: {}, emotion: {} },
+  body: { enabled: true },
+  hand: { enabled: true },
+  gesture: { enabled: true },
+};
 
 const drawOptions = {
   bufferedOutput: true,
@@ -60,11 +64,6 @@ const ui = {
   lastFrame: 0,
   viewportSet: false,
   transferCanvas: null,
-  useWebRTC: false,
-  webRTCServer: 'http://localhost:8002',
-  webRTCStream: 'reowhite',
-  compare: '../samples/ai-face.jpg',
-  samples: [],
 };
 
 const pwa = {
@@ -91,7 +90,6 @@ let worker;
 let bench;
 let lastDetectedResult = {};
 let prevStatus = '';
-const compare = { enabled: false, original: null };
 
 // Helper Functions
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -105,56 +103,29 @@ const status = (msg) => {
   const div = document.getElementById('status');
   if (div && msg && msg !== prevStatus && msg.length > 0) {
     log('status', msg);
-    document.getElementById('play').style.display = 'none';
     document.getElementById('loader').style.display = 'block';
     div.innerText = msg;
     prevStatus = msg;
   } else {
     const video = document.getElementById('video');
-    const playing = isLive(video) && !video.paused;
-    document.getElementById('play').style.display = playing ? 'none' : 'block';
+    const playing = video.readyState > 2 && !video.paused;
     document.getElementById('loader').style.display = 'none';
     div.innerText = '';
   }
 };
-const isLive = (input) => {
-  const isCamera = input.srcObject?.getVideoTracks()[0] && input.srcObject.getVideoTracks()[0].enabled;
-  const isVideoLive = input.readyState > 2;
-  const isCameraLive = input.srcObject?.getVideoTracks()[0].readyState === 'live';
-  return (isCamera ? isCameraLive : isVideoLive) && !input.paused;
-};
 
 // Video Controls
 const videoPlay = async (videoElement = document.getElementById('video')) => {
-  document.getElementById('btnStartText').innerHTML = 'pause video';
   await videoElement.play();
 };
 const videoPause = async () => {
-  document.getElementById('btnStartText').innerHTML = 'start video';
   await document.getElementById('video').pause();
   status('paused');
-  document.getElementById('play').style.display = 'block';
   document.getElementById('loader').style.display = 'none';
-};
-
-const calcSimilarity = async (result) => {
-  document.getElementById('compare-container').onclick = () => {
-    log('resetting face compare baseline:');
-    compare.original = null;
-  };
-  document.getElementById('compare-container').style.display = compare.enabled ? 'block' : 'none';
-  if (!compare.enabled || !result?.face?.[0]?.embedding) return;
-  if (!compare.original) {
-    compare.original = result;
-    log('setting face compare baseline:', result.face[0]);
-    if (result.face[0].tensor) {
-      human.tf.browser.draw(result.face[0].tensor, document.getElementById('orig'));
-    } else {
-      document.getElementById('compare-canvas').getContext('2d').drawImage(compare.original.canvas, 0, 0, 200, 200);
-    }
-  }
-  const similarity = human.match.similarity(compare.original.face[0].embedding, result.face[0].embedding);
-  document.getElementById('similarity').innerText = `similarity: ${Math.trunc(1000 * similarity) / 10}%`;
+  
+  // 비디오가 종료되면 JSON 파일 저장
+  saveFrameResults();
+  saveFinalResults();
 };
 
 let handCount = 0; // hand 제스처 카운터
@@ -280,7 +251,6 @@ const saveDetectedResult = (result) => {
   console.log('Frame result saved:', filteredResult);
 };
 
-
 const saveFrameResults = () => {
   const dataStr = JSON.stringify(detectedResults, null, 2);
   const blob = new Blob([dataStr], { type: 'application/json' });
@@ -346,8 +316,8 @@ const saveFinalResults = () => {
   document.body.removeChild(a);
 };
 
-  document.getElementById('save-frame-results').addEventListener('click', saveFrameResults);
-  document.getElementById('save-final-results').addEventListener('click', saveFinalResults);
+document.getElementById('save-frame-results').addEventListener('click', saveFrameResults);
+document.getElementById('save-final-results').addEventListener('click', saveFinalResults);
 
 const drawResults = async (input) => {
   frameCount++; // 여기서만 frameCount를 증가시킴
@@ -388,8 +358,6 @@ const drawResults = async (input) => {
     jsonView(result, div, 'Results', ['canvas', 'timestamp']);
   }
 
-  await calcSimilarity(result);
-
   const engine = human.tf.engine();
   const processing = result.canvas ? `processing: ${result.canvas.width} x ${result.canvas.height}` : '';
   const avgDetect = ui.detectFPS.length > 0 ? Math.trunc(10 * ui.detectFPS.reduce((a, b) => a + b, 0) / ui.detectFPS.length) / 10 : 0;
@@ -400,7 +368,6 @@ const drawResults = async (input) => {
   const gpu = engine.backendInstance ? `gpu: ${(engine.backendInstance.numBytesInGPU ? engine.backendInstance.numBytesInGPU : 0).toLocaleString()} bytes` : '';
   const memory = result.tensors ? `tensors: ${result.tensors.toLocaleString()} in worker` : `system: ${engine.state.numBytes.toLocaleString()} bytes ${gpu} | tensors: ${engine.state.numTensors.toLocaleString()}`;
   document.getElementById('log').innerHTML = `
-    video: ${ui.camera.name} | facing: ${ui.camera.facing} | screen: ${window.innerWidth} x ${window.innerHeight} camera: ${ui.camera.width} x ${ui.camera.height} ${processing}<br>
     backend: ${backend} | ${memory}<br>
     performance: ${str(interpolated.performance)}ms ${fps}<br>
     ${warning}<br>
@@ -408,7 +375,7 @@ const drawResults = async (input) => {
   ui.framesDraw++;
   ui.lastFrame = human.now();
   if (ui.buffered) {
-    if (isLive(input)) {
+    if (video.readyState > 2 && !video.paused) {
       ui.drawThread = setTimeout(() => drawResults(input), 25);
     } else {
       cancelAnimationFrame(ui.drawThread);
@@ -421,92 +388,6 @@ const drawResults = async (input) => {
     ui.drawThread = null;
   }
 };
-
-
-// setup webcam
-let initialCameraAccess = true;
-async function setupCamera() {
-  if (ui.busy) return null;
-  ui.busy = true;
-  const video = document.getElementById('video');
-  const canvas = document.getElementById('canvas');
-  const output = document.getElementById('log');
-  if (ui.useWebRTC) {
-    status('setting up webrtc connection');
-    try {
-      video.onloadeddata = () => ui.camera = { name: ui.webRTCStream, width: video.videoWidth, height: video.videoHeight, facing: 'default' };
-      await webRTC(ui.webRTCServer, ui.webRTCStream, video);
-    } catch (err) {
-      log(err);
-    } finally {
-      // status();
-    }
-    return '';
-  }
-  const live = video.srcObject ? ((video.srcObject.getVideoTracks()[0].readyState === 'live') && (video.readyState > 2) && (!video.paused)) : false;
-  let msg = '';
-  status('setting up camera');
-  if (!navigator.mediaDevices) {
-    msg = 'camera access not supported';
-    output.innerText += `\n${msg}`;
-    log(msg);
-    status(msg);
-    ui.busy = false;
-    return msg;
-  }
-  let stream;
-  const constraints = {
-    audio: false,
-    video: {
-      facingMode: ui.facing ? 'user' : 'environment',
-      resizeMode: ui.crop ? 'crop-and-scale' : 'none',
-      width: { ideal: document.body.clientWidth },
-      aspectRatio: document.body.clientWidth / document.body.clientHeight,
-    },
-  };
-  const devices = await navigator.mediaDevices.enumerateDevices();
-  if (initialCameraAccess) log('enumerated input devices:', devices);
-  if (initialCameraAccess) log('camera constraints', constraints);
-  try {
-    stream = await navigator.mediaDevices.getUserMedia(constraints);
-  } catch (err) {
-    if (err.name === 'PermissionDeniedError' || err.name === 'NotAllowedError') msg = 'camera permission denied';
-    else if (err.name === 'SourceUnavailableError') msg = 'camera not available';
-    else msg = `camera error: ${err.message || err}`;
-    output.innerText += `\n${msg}`;
-    status(msg);
-    log('camera error:', err);
-    ui.busy = false;
-    return msg;
-  }
-  const tracks = stream.getVideoTracks();
-  if (tracks && tracks.length >= 1) {
-    if (initialCameraAccess) log('enumerated viable tracks:', tracks);
-  } else {
-    ui.busy = false;
-    return 'no camera track';
-  }
-  const track = stream.getVideoTracks()[0];
-  const settings = track.getSettings();
-  if (initialCameraAccess) log('selected video source:', track, settings);
-  ui.camera = { name: track.label.toLowerCase(), width: settings.width, height: settings.height, facing: settings.facingMode === 'user' ? 'front' : 'back' };
-  initialCameraAccess = false;
-
-  if (!stream) return 'camera stream empty';
-
-  const ready = new Promise((resolve) => { (video.onloadeddata = () => resolve(true)); });
-  video.srcObject = stream;
-  await ready;
-  if (settings.width > settings.height) canvas.style.width = '100vw';
-  else canvas.style.height = '100vh';
-  canvas.width = video.videoWidth;
-  canvas.height = video.videoHeight;
-  ui.menuWidth.input.setAttribute('value', video.videoWidth);
-  ui.menuHeight.input.setAttribute('value', video.videoHeight);
-  if (live || ui.autoPlay) await videoPlay();
-  if ((live || ui.autoPlay) && !ui.detectThread) runHumanDetect(video, canvas);
-  return 'camera stream ready';
-}
 
 function initPerfMonitor() {
   if (!bench) {
@@ -536,7 +417,7 @@ function webWorker(input, image, canvas, timestamp) {
 
       ui.framesDetect++;
       if (!ui.drawThread) drawResults(input);
-      if (isLive(input)) {
+      if (video.readyState > 2 && !video.paused) {
         ui.detectThread = requestAnimationFrame((now) => runHumanDetect(input, canvas, now));
       }
     });
@@ -545,7 +426,7 @@ function webWorker(input, image, canvas, timestamp) {
 }
 
 function runHumanDetect(input, canvas, timestamp) {
-  if (!isLive(input)) {
+  if (!(video.readyState > 2 && !video.paused)) {
     if (ui.detectThread) cancelAnimationFrame(ui.detectThread);
     if (input.paused) log('video paused');
     else log(`video not ready: track state: ${input.srcObject ? input.srcObject.getVideoTracks()[0].readyState : 'unknown'} stream state: ${input.readyState}`);
@@ -613,18 +494,13 @@ async function detectVideo() {
   const canvas = document.getElementById('canvas');
   canvas.style.display = 'block';
   cancelAnimationFrame(ui.detectThread);
-  if (isLive(video) && !video.paused) {
+  if (video.readyState > 2 && !video.paused) {
     await videoPause();
   } else {
-    const cameraError = await setupCamera();
-    if (!cameraError) {
-      status('starting detection');
-      for (const m of Object.values(menu)) m.hide();
-      await videoPlay();
-      runHumanDetect(video, canvas);
-    } else {
-      status(cameraError);
-    }
+    status('starting detection');
+    for (const m of Object.values(menu)) m.hide();
+    await videoPlay();
+    runHumanDetect(video, canvas);
   }
 }
 
@@ -642,11 +518,9 @@ function setupMenu() {
   menu.display.addBool('buffer output', ui, 'buffered', (val) => ui.buffered = val);
   menu.display.addBool('crop & scale', ui, 'crop', (val) => {
     ui.crop = val;
-    setupCamera();
   });
   menu.display.addBool('camera facing', ui, 'facing', (val) => {
     ui.facing = val;
-    setupCamera();
   });
   menu.display.addHTML('<hr style="border-style: inset; border-color: dimgray">');
   menu.display.addBool('use depth', drawOptions, 'useDepth');
@@ -713,6 +587,7 @@ function setupMenu() {
   menu.process.addChart('FPS', 'FPS');
 
   menu.models = new Menu(document.body, '', { top, left: x[3] });
+  menu.models.addHTML('<hr style="border-style: inset; border-color: dimgray">');
   menu.models.addBool('face detect', userConfig.face, 'enabled', (val) => userConfig.face.enabled = val);
   menu.models.addBool('face mesh', userConfig.face.mesh, 'enabled', (val) => userConfig.face.mesh.enabled = val);
   menu.models.addBool('face iris', userConfig.face.iris, 'enabled', (val) => userConfig.face.iris.enabled = val);
@@ -723,13 +598,6 @@ function setupMenu() {
   menu.models.addBool('hand pose', userConfig.hand, 'enabled', (val) => userConfig.hand.enabled = val);
   menu.models.addHTML('<hr style="border-style: inset; border-color: dimgray">');
   menu.models.addBool('gestures', userConfig.gesture, 'enabled', (val) => userConfig.gesture.enabled = val);
-  menu.models.addHTML('<hr style="border-style: inset; border-color: dimgray">');
-  menu.models.addBool('object detection', userConfig.object, 'enabled', (val) => userConfig.object.enabled = val);
-  menu.models.addHTML('<hr style="border-style: inset; border-color: dimgray">');
-  menu.models.addBool('face compare', compare, 'enabled', (val) => {
-    compare.enabled = val;
-    compare.original = null;
-  });
 
   for (const m of Object.values(menu)) m.hide();
 
@@ -737,8 +605,6 @@ function setupMenu() {
   document.getElementById('btnImage').addEventListener('click', (evt) => menu.image.toggle(evt));
   document.getElementById('btnProcess').addEventListener('click', (evt) => menu.process.toggle(evt));
   document.getElementById('btnModel').addEventListener('click', (evt) => menu.models.toggle(evt));
-  document.getElementById('btnStart').addEventListener('click', () => detectVideo());
-  document.getElementById('play').addEventListener('click', () => detectVideo());
   document.getElementById('save-frame-results').addEventListener('click', saveFrameResults);
   document.getElementById('save-final-results').addEventListener('click', saveFinalResults);
 }
@@ -770,7 +636,6 @@ async function resize() {
   human.draw.options.font = `small-caps ${fontSize}px "Segoe UI"`;
   human.draw.options.lineHeight = fontSize + 2;
 
-  await setupCamera();
   window.onresize = resize;
 }
 
@@ -851,7 +716,7 @@ async function pwaRegister() {
       navigator.serviceWorker.controller.postMessage({ key: 'cacheWASM', val: pwa.cacheWASM });
       navigator.serviceWorker.controller.postMessage({ key: 'cacheOther', val: pwa.cacheOther });
 
-      log('pwa ctive:', navigator.serviceWorker.controller.scriptURL);
+      log('pwa active:', navigator.serviceWorker.controller.scriptURL);
       const cache = await caches.open(pwa.cacheName);
       if (cache) {
         const content = await cache.matchAll();
@@ -955,7 +820,6 @@ async function main() {
 
   status('human: ready');
   document.getElementById('loader').style.display = 'none';
-  document.getElementById('play').style.display = 'block';
   document.getElementById('results').style.display = 'none';
 
   await dragAndDrop();
