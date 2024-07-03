@@ -1,0 +1,9460 @@
+[
+  {
+    "frame": 1,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 2,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 3,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 4,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 5,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 6,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 7,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 8,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 9,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.68"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.21"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "11.84"
+  },
+  {
+    "frame": 10,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.18"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.39"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "10.16"
+  },
+  {
+    "frame": 11,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.18"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.39"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "10.16"
+  },
+  {
+    "frame": 12,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.18"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.39"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "10.16"
+  },
+  {
+    "frame": 13,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.18"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.39"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "10.16"
+  },
+  {
+    "frame": 14,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.18"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.39"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 0,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 0,
+    "emotion_score": "10.16"
+  },
+  {
+    "frame": 15,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.21"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.71"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left"
+      ],
+      "iris": [
+        "looking right"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 1,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 1,
+    "emotion_score": "7.70"
+  },
+  {
+    "frame": 16,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.21"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.71"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 2,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 2,
+    "emotion_score": "7.70"
+  },
+  {
+    "frame": 17,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.23"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.33"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.22"
+          }
+        ],
+        "distance": "1.50"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 3,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 3,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 18,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.23"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.33"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.22"
+          }
+        ],
+        "distance": "1.36"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink left eye",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 4,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 4,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 19,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.23"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.33"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.22"
+          }
+        ],
+        "distance": "1.50"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink left eye",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 5,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 5,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 20,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.23"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.33"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.22"
+          }
+        ],
+        "distance": "1.50"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink right eye"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 6,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 5,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 21,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.23"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.33"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.22"
+          }
+        ],
+        "distance": "1.50"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 7,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 6,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 22,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.12"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.23"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.33"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.22"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing left",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 8,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 7,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 23,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.21"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.32"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 8,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 8,
+    "emotion_score": "12.80"
+  },
+  {
+    "frame": 24,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.12"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.52"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.28"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 8,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 9,
+    "emotion_score": "13.76"
+  },
+  {
+    "frame": 25,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.12"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.52"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.28"
+          }
+        ],
+        "distance": "1.36"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing right",
+        "blink left eye"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 9,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 9,
+    "emotion_score": "13.76"
+  },
+  {
+    "frame": 26,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.48"
+          }
+        ],
+        "distance": "1.87"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing right",
+        "blink left eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 10,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 10,
+    "emotion_score": "16.52"
+  },
+  {
+    "frame": 27,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.48"
+          }
+        ],
+        "distance": "2.50"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing right",
+        "blink left eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 11,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 11,
+    "emotion_score": "16.52"
+  },
+  {
+    "frame": 28,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.48"
+          }
+        ],
+        "distance": "3.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing right",
+        "blink left eye"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 12,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 11,
+    "emotion_score": "16.52"
+  },
+  {
+    "frame": 29,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.48"
+          }
+        ],
+        "distance": "1.87"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing right",
+        "blink left eye"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 11,
+    "emotion_score": "16.52"
+  },
+  {
+    "frame": 30,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 12,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 31,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 32,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 33,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 34,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 35,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 36,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 37,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 38,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.22"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.46"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "10.96"
+  },
+  {
+    "frame": 39,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 40,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 13,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 41,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 14,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 42,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 14,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 43,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 15,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 44,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 16,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 45,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 16,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 46,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink left eye"
+      ],
+      "iris": [
+        "looking right",
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 18,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 47,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 19,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 48,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.45"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 20,
+    "emotion_score": "14.60"
+  },
+  {
+    "frame": 49,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 21,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 50,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 51,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 52,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 53,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 54,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 55,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 56,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 57,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 58,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.14"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 59,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 60,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 61,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 62,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 63,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 64,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 65,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 66,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 67,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 68,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.18"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 69,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.69"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 22,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 70,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.69"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 23,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 71,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.69"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 24,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 72,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.69"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 24,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 73,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.69"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 25,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 74,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.85"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 26,
+    "emotion_score": "20.00"
+  },
+  {
+    "frame": 75,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.74"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 27,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 76,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.11"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.13"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.64"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 0,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "16.68"
+  },
+  {
+    "frame": 77,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.18"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.54"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 1,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "15.60"
+  },
+  {
+    "frame": 78,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.21"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.26"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.42"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 2,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "13.52"
+  },
+  {
+    "frame": 79,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.64"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.28"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 3,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "12.32"
+  },
+  {
+    "frame": 80,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.65"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.26"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 4,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "12.20"
+  },
+  {
+    "frame": 81,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.74"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.11"
+          }
+        ],
+        "distance": "0.75"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 5,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "11.12"
+  },
+  {
+    "frame": 82,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.72"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.17"
+          }
+        ],
+        "distance": "0.71"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 6,
+    "eyetrack_minus_count": 28,
+    "emotion_score": "11.36"
+  },
+  {
+    "frame": 83,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.49"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.42"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 7,
+    "eyetrack_minus_count": 29,
+    "emotion_score": "14.12"
+  },
+  {
+    "frame": 84,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.12"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.84"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 8,
+    "eyetrack_minus_count": 30,
+    "emotion_score": "18.56"
+  },
+  {
+    "frame": 85,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.15"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.47"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.29"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 13,
+    "body_minus_count": 8,
+    "eyetrack_minus_count": 31,
+    "emotion_score": "11.96"
+  },
+  {
+    "frame": 86,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.79"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink left eye",
+        "blink right eye",
+        "head down"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 14,
+    "body_minus_count": 8,
+    "eyetrack_minus_count": 32,
+    "emotion_score": "20.00"
+  },
+  {
+    "frame": 87,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.48"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.33"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 14,
+    "body_minus_count": 8,
+    "eyetrack_minus_count": 33,
+    "emotion_score": "14.24"
+  },
+  {
+    "frame": 88,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.61"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.25"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye",
+        "head down"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 15,
+    "body_minus_count": 8,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "12.68"
+  },
+  {
+    "frame": 89,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.10"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.27"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.54"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head down"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 16,
+    "body_minus_count": 9,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "15.16"
+  },
+  {
+    "frame": 90,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.10"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.11"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.25"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.45"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head down"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 17,
+    "body_minus_count": 10,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "13.42"
+  },
+  {
+    "frame": 91,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.17"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.24"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head down"
+      ],
+      "iris": [],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 18,
+    "body_minus_count": 11,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "17.12"
+  },
+  {
+    "frame": 92,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.58"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.17"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head down"
+      ],
+      "iris": [],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 19,
+    "body_minus_count": 12,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "13.04"
+  },
+  {
+    "frame": 93,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.58"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.17"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head down"
+      ],
+      "iris": [],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 20,
+    "body_minus_count": 13,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "13.04"
+  },
+  {
+    "frame": 94,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.48"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.30"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head down"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 21,
+    "body_minus_count": 14,
+    "eyetrack_minus_count": 34,
+    "emotion_score": "14.24"
+  },
+  {
+    "frame": 95,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.10"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.47"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.34"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye",
+        "head down"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 15,
+    "eyetrack_minus_count": 35,
+    "emotion_score": "12.56"
+  },
+  {
+    "frame": 96,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.57"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.31"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning right"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 16,
+    "eyetrack_minus_count": 36,
+    "emotion_score": "13.16"
+  },
+  {
+    "frame": 97,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.31"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.57"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking left",
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 16,
+    "eyetrack_minus_count": 38,
+    "emotion_score": "8.20"
+  },
+  {
+    "frame": 98,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.47"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.42"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking left",
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 16,
+    "eyetrack_minus_count": 40,
+    "emotion_score": "7.44"
+  },
+  {
+    "frame": 99,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.11"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.40"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.30"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 16,
+    "eyetrack_minus_count": 41,
+    "emotion_score": "13.22"
+  },
+  {
+    "frame": 100,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.68"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 17,
+    "eyetrack_minus_count": 42,
+    "emotion_score": "18.08"
+  },
+  {
+    "frame": 101,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.16"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.21"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.47"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 18,
+    "eyetrack_minus_count": 43,
+    "emotion_score": "14.92"
+  },
+  {
+    "frame": 102,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.18"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.38"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.35"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 19,
+    "eyetrack_minus_count": 43,
+    "emotion_score": "15.44"
+  },
+  {
+    "frame": 103,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.20"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.31"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.31"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 20,
+    "eyetrack_minus_count": 43,
+    "emotion_score": "13.08"
+  },
+  {
+    "frame": 104,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.20"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.31"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.31"
+          }
+        ],
+        "distance": "0.71"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 21,
+    "eyetrack_minus_count": 43,
+    "emotion_score": "13.08"
+  },
+  {
+    "frame": 105,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.24"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.17"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.49"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 22,
+    "eyetrack_minus_count": 44,
+    "emotion_score": "17.96"
+  },
+  {
+    "frame": 106,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.21"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.74"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [
+        "leaning left"
+      ],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 45,
+    "emotion_score": "17.48"
+  },
+  {
+    "frame": 107,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.11"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.16"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.35"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.34"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink left eye",
+        "blink right eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "14.04"
+  },
+  {
+    "frame": 108,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.16"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.16"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.26"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.35"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "14.32"
+  },
+  {
+    "frame": 109,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.15"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.17"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.59"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.56"
+  },
+  {
+    "frame": 110,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.65"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 0,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "17.60"
+  },
+  {
+    "frame": 111,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 1,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 112,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 2,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 113,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 3,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 114,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 4,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 115,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 5,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 116,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 6,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 117,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "index up"
+      ]
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 118,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 119,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.14"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.13"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.16"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.50"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "15.84"
+  },
+  {
+    "frame": 120,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 121,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 22,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 122,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 23,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 46,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 123,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 24,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 47,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 124,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 25,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 47,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 125,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 26,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 47,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 126,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.29"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.00"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.62"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [
+        "looking right",
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 7,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 27,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 48,
+    "emotion_score": "9.16"
+  },
+  {
+    "frame": 127,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.36"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.15"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.21"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.23"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "pinky up"
+      ]
+    },
+    "hand_count": 8,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 28,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 48,
+    "emotion_score": "9.62"
+  },
+  {
+    "frame": 128,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.13"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.15"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.48"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": [
+        "index forward",
+        "pinky up"
+      ]
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 29,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 49,
+    "emotion_score": "11.06"
+  },
+  {
+    "frame": 129,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.16"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.55"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.16"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 30,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 50,
+    "emotion_score": "10.84"
+  },
+  {
+    "frame": 130,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.16"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.55"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.16"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 31,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 50,
+    "emotion_score": "10.84"
+  },
+  {
+    "frame": 131,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.16"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.55"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.16"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "head up"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 50,
+    "emotion_score": "10.84"
+  },
+  {
+    "frame": 132,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.16"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.55"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.16"
+          }
+        ],
+        "distance": "1.15"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center",
+        "blink left eye"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 51,
+    "emotion_score": "10.84"
+  },
+  {
+    "frame": 133,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.29"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.15"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.43"
+          }
+        ],
+        "distance": "1.07"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 51,
+    "emotion_score": "18.20"
+  },
+  {
+    "frame": 134,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.15"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.47"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.18"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking down"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "9.44"
+  },
+  {
+    "frame": 135,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 136,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 137,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 138,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 139,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 140,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 141,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 142,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.20"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.29"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.92"
+  },
+  {
+    "frame": 143,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 144,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 145,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 146,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 147,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.79"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 148,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 149,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 150,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 151,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 152,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.14"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.20"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.55"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "15.08"
+  },
+  {
+    "frame": 153,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 154,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 155,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 156,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 157,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 158,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 159,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 160,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 161,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 162,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.78"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.13"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "10.64"
+  },
+  {
+    "frame": 163,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.57"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "13.16"
+  },
+  {
+    "frame": 164,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.57"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "13.16"
+  },
+  {
+    "frame": 165,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.57"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.36"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "13.16"
+  },
+  {
+    "frame": 166,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.20"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.36"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.41"
+          }
+        ],
+        "distance": "0.83"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "12.48"
+  },
+  {
+    "frame": 167,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.47"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.43"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "14.36"
+  },
+  {
+    "frame": 168,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.11"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.69"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.17"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "9.96"
+  },
+  {
+    "frame": 169,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.93"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 170,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.93"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 171,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.93"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.88"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 172,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.93"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 173,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.93"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "1.00"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "8.84"
+  },
+  {
+    "frame": 174,
+    "face": [
+      {
+        "emotion": [
+          {
+            "emotion": "angry",
+            "score": "0.00"
+          },
+          {
+            "emotion": "disgust",
+            "score": "0.00"
+          },
+          {
+            "emotion": "fear",
+            "score": "0.00"
+          },
+          {
+            "emotion": "happy",
+            "score": "0.00"
+          },
+          {
+            "emotion": "sad",
+            "score": "0.93"
+          },
+          {
+            "emotion": "surprise",
+            "score": "0.00"
+          },
+          {
+            "emotion": "neutral",
+            "score": "0.00"
+          }
+        ],
+        "distance": "0.94"
+      }
+    ],
+    "gesture": {
+      "face": [
+        "facing center"
+      ],
+      "iris": [
+        "looking center"
+      ],
+      "body": [],
+      "hand": []
+    },
+    "hand_count": 9,
+    "noemotion_frame_count": 0,
+    "face_minus_count": 32,
+    "body_minus_count": 23,
+    "eyetrack_minus_count": 52,
+    "emotion_score": "8.84"
+  }
+]

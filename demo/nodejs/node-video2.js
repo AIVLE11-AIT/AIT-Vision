@@ -1,32 +1,53 @@
 const express = require('express');
 const axios = require('axios');
 const process = require('process');
-const { spawn } = require('child_process');
+const spawn = require('child_process').spawn;
 const fs = require('fs');
 const log = require('@vladmandic/pilogger');
 const Pipe2Jpeg = require('pipe2jpeg');
-const Human = require('./dist/human.node.js'); // 주신 경로 반영
-const multer = require('multer');
-const path = require('path');
+const Human = require('../../dist/human.node.js');
 
 const app = express();
 const port = 3000; // 서버 포트
 
-// Multer 설정 (파일 업로드 미들웨어)
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, 'uploads/');
-  },
-  filename: function (req, file, cb) {
-    cb(null, `${Date.now()}-${file.originalname}`);
-  }
-});
-const upload = multer({ storage: storage });
-
 let count = 0; // 프레임 카운터
 let busy = false; // 처리 중 플래그
 let inputFile = ''; // 기본 입력 파일
+if (process.argv.length === 3) inputFile = process.argv[2];
+
+async function downloadVideoFromSpringBoot(url, outputPath) {
+  try {
+    const response = await axios({
+      method: 'GET',
+      url: url,
+      responseType: 'stream', // 응답 데이터를 스트림 형식으로 받음
+    });
+
+    // 스트림을 파일로 저장
+    response.data.pipe(fs.createWriteStream(outputPath));
+
+    // Promise를 사용하여 다운로드 완료까지 대기
+    await new Promise((resolve, reject) => {
+      response.data.on('end', () => {
+        console.log(`File downloaded to ${outputPath}`);
+        resolve();
+      });
+      response.data.on('error', (err) => {
+        reject(err);
+      });
+    });
+  } catch (error) {
+    console.error('Error downloading video:', error.message);
+  }
+}
+
+// Spring Boot 서버의 동영상 파일 URL
+const videoUrl = 'http://localhost:8080/api/video/download';
+// 다운로드 받을 파일 경로와 파일 이름
 const outputFile = './downloaded-video.mp4';
+
+// 다운로드 함수 호출
+downloadVideoFromSpringBoot(videoUrl, outputFile);
 
 const emotionsList = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral'];
 
@@ -275,17 +296,7 @@ async function main() {
   ffmpeg.stdout.pipe(pipe2jpeg); // ffmpeg 출력 파이프를 pipe2jpeg로 연결
 }
 
-// 엔드포인트 정의
-app.post('/process-video', upload.single('video'), async (req, res) => {
-  inputFile = req.file.path;
-  await main();
-  const finalResults = JSON.parse(fs.readFileSync('finalResults.json', 'utf8'));
-  res.json(finalResults);
-});
-
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
+main();
 
 // Spring Boot 서버에 최종 결과를 전송하는 코드
 const sendFinalResultsToSpringBoot = async () => {
@@ -294,7 +305,7 @@ const sendFinalResultsToSpringBoot = async () => {
 
     const apiUrl = 'http://localhost:8080/api/results'; // Spring Boot 서버의 API URL
     const response = await axios.post(apiUrl, finalResults);
-
+    
     console.log('Final results sent to Spring Boot server:', response.data);
   } catch (error) {
     console.error('Error sending final results to Spring Boot server:', error.message);
@@ -309,4 +320,8 @@ process.on('exit', async () => {
 process.on('SIGINT', async () => {
   await sendFinalResultsToSpringBoot();
   process.exit(0);
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });

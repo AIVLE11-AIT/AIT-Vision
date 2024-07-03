@@ -1,13 +1,11 @@
 const express = require('express');
-const axios = require('axios');
 const process = require('process');
-const { spawn } = require('child_process');
+const spawn = require('child_process').spawn;
 const fs = require('fs');
 const log = require('@vladmandic/pilogger');
 const Pipe2Jpeg = require('pipe2jpeg');
-const Human = require('./dist/human.node.js'); // 주신 경로 반영
+const Human = require('./dist/human.node.js');
 const multer = require('multer');
-const path = require('path');
 
 const app = express();
 const port = 3000; // 서버 포트
@@ -26,7 +24,6 @@ const upload = multer({ storage: storage });
 let count = 0; // 프레임 카운터
 let busy = false; // 처리 중 플래그
 let inputFile = ''; // 기본 입력 파일
-const outputFile = './downloaded-video.mp4';
 
 const emotionsList = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral'];
 
@@ -171,30 +168,16 @@ const humanConfig = {
 };
 
 const human = new Human.Human(humanConfig);
-const pipe2jpeg = new Pipe2Jpeg();
-
-const ffmpegParams = [
-  '-loglevel', 'quiet', // 에러 로그를 출력하도록 설정
-  '-i', `${inputFile}`, // 입력 파일
-  '-an', // 오디오 제거
-  '-c:v', 'mjpeg', // Motion JPEG 사용
-  '-pix_fmt', 'yuvj422p', // 픽셀 형식 설정
-  '-vf', 'fps=1', // 초당 1프레임으로 설정
-  '-f', 'image2pipe', // 이미지를 파이프로 출력
-  'pipe:1', // 파이프로 출력
-];
+let pipe2jpeg = new Pipe2Jpeg();
 
 const logFileName = 'face_detection_results.json'; // 저장할 파일 이름
 let detectionResults = []; // 감지 결과를 저장할 배열
 
+const ffmpegPath = 'ffmpeg'; // ffmpeg 경로를 설정합니다.
+
 function prepareLogFile() {
   fs.writeFileSync(logFileName, ''); // 기존 파일 내용을 초기화하거나 새 파일 생성
   log.info('Log file prepared');
-}
-
-function saveResultsToFile() {
-  fs.writeFileSync(logFileName, JSON.stringify(detectionResults, null, 2)); // 감지 결과를 파일에 저장
-  log.info('Results saved to file');
 }
 
 const saveFinalResults = () => {
@@ -257,56 +240,74 @@ async function detect(jpegBuffer) {
   busy = false;
 }
 
-async function main() {
+async function main(res) {
+  const ffmpegParams = [
+    '-loglevel', 'quiet', // 에러 로그를 출력하도록 설정
+    '-i', `${inputFile}`, // 입력 파일
+    '-an', // 오디오 제거
+    '-c:v', 'mjpeg', // Motion JPEG 사용
+    '-pix_fmt', 'yuvj422p', // 픽셀 형식 설정
+    '-vf', 'fps=10', // 초당 10프레임으로 설정
+    '-f', 'image2pipe', // 이미지를 파이프로 출력
+    'pipe:1', // 파이프로 출력
+  ];
+
   prepareLogFile(); // 로그 파일 초기화
   log.header();
   await human.tf.ready(); // TensorFlow.js 준비 완료 대기
   log.info({ human: human.version, tf: human.tf.version_core });
   log.info({ input: inputFile });
-  pipe2jpeg.on('data', (jpegBuffer) => detect(jpegBuffer)); // pipe2jpeg의 데이터 이벤트 처리
 
-  const ffmpeg = spawn('ffmpeg', ffmpegParams, { stdio: ['ignore', 'pipe', 'ignore'] });
+  pipe2jpeg = new Pipe2Jpeg();
+  const detectWrapper = (jpegBuffer) => detect(jpegBuffer);
+  pipe2jpeg.on('data', detectWrapper); // pipe2jpeg의 데이터 이벤트 처리
+
+  const ffmpeg = spawn(ffmpegPath, ffmpegParams, { stdio: ['ignore', 'pipe', 'ignore'] });
   ffmpeg.on('error', (error) => log.error('ffmpeg error:', error));
-  ffmpeg.on('exit', (code, signal) => {
+  ffmpeg.on('exit', async (code, signal) => {
     log.info('ffmpeg exit', code, signal);
-    saveResultsToFile(); // ffmpeg 프로세스 종료 시 결과 저장
+    pipe2jpeg.removeListener('data', detectWrapper); // ffmpeg 프로세스 종료 시 데이터 이벤트 리스너 제거
+
     saveFinalResults(); // 최종 결과를 저장
+
+    // 여기서 파일이 만들어지는지 확인하기 위해 추가 로깅을 넣습니다.
+    if (fs.existsSync('finalResults.json')) {
+      log.info('finalResults.json file exists');
+      const finalResults = JSON.parse(fs.readFileSync('finalResults.json', 'utf8'));
+      res.json(finalResults);
+
+    } else {
+      log.error('finalResults.json file does not exist');
+      res.status(500).json({ error: 'finalResults.json file does not exist' });
+    }
   });
   ffmpeg.stdout.pipe(pipe2jpeg); // ffmpeg 출력 파이프를 pipe2jpeg로 연결
 }
 
 // 엔드포인트 정의
 app.post('/process-video', upload.single('video'), async (req, res) => {
+  count = 0; // 프레임 카운터 초기화
+  handCount = 0; // hand 제스처 카운터 초기화
+  totalEmotionScore = 0; // 전체 감정 점수 합계 초기화
+  faceMinusCount = 0; // face 제스처 카운터 초기화
+  bodyMinusCount = 0; // body 제스처 카운터 초기화
+  eyetrackMinusCount = 0; // eye 제스처 카운터 초기화
+  noemotionFrameCount = 0; // emotion이 감지되지 않는 프레임 수 초기화
+  detectionResults = []; // 감지 결과를 저장할 배열 초기화
   inputFile = req.file.path;
-  await main();
-  const finalResults = JSON.parse(fs.readFileSync('finalResults.json', 'utf8'));
-  res.json(finalResults);
+  await main(res);
 });
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
-// Spring Boot 서버에 최종 결과를 전송하는 코드
-const sendFinalResultsToSpringBoot = async () => {
-  try {
-    const finalResults = JSON.parse(fs.readFileSync('finalResults.json', 'utf8'));
-
-    const apiUrl = 'http://localhost:8080/api/results'; // Spring Boot 서버의 API URL
-    const response = await axios.post(apiUrl, finalResults);
-
-    console.log('Final results sent to Spring Boot server:', response.data);
-  } catch (error) {
-    console.error('Error sending final results to Spring Boot server:', error.message);
-  }
-};
-
-// 프로세스 종료 시 최종 결과를 Spring Boot 서버에 전송
-process.on('exit', async () => {
-  await sendFinalResultsToSpringBoot();
+// 프로세스 종료 시 최종 결과를 로깅합니다.
+process.on('exit', () => {
+  log.info('Process exiting');
 });
 
-process.on('SIGINT', async () => {
-  await sendFinalResultsToSpringBoot();
+process.on('SIGINT', () => {
+  log.info('Process interrupted');
   process.exit(0);
 });

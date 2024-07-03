@@ -3,6 +3,9 @@
   homepage: <https://github.com/vladmandic/human>
   author: <https://github.com/vladmandic>'
 */
+import { TextEncoder, TextDecoder } from 'util';
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
 
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
@@ -5623,7 +5626,7 @@ var Ow = class {
     return this.util.types.isFloat32Array(e) || this.util.types.isInt32Array(e) || this.util.types.isUint8Array(e) || this.util.types.isUint8ClampedArray(e);
   }
 };
-A().get("IS_NODE") && !A().get("IS_BROWSER") && A().setPlatform("node", new Ow());
+A().get("IS_NODE") && !A().get("IS_BROWSER") && A().setPlatform("node", new Ow({ TextEncoder: global.TextEncoder || require('util').TextEncoder }));
 function me(r15, e = "float32", t10) {
   return e = e || "float32", Ct(r15), new tt(r15, e, t10);
 }
