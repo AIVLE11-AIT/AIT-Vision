@@ -9,5 +9,5 @@ https://github.com/AIVLE11-AIT/AIT-Vision/assets/81233061/d40ba389-9178-4857-8c1
 # 오물오물
 ![스크린샷 2024-07-02 130422](https://github.com/AIVLE11-AIT/AIT-frontend/assets/86431761/aaadcf7f-1f87-40de-b68b-f84eb13ce695)
 
-# 키야~
-![image](https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/7329ab50-37be-47fe-bb79-0f24d9e6e0bb)
+# 앤써니 키야 ~
+<img src="https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/7329ab50-37be-47fe-bb79-0f24d9e6e0bb" width="400" height="500"/>
