@@ -14,3 +14,6 @@ https://github.com/AIVLE11-AIT/AIT-Vision/assets/81233061/d40ba389-9178-4857-8c1
 
 # 촉촉진혁
 ![image](https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/b0ac5938-3c6c-44a8-96ef-329d4f1c2c78)
+
+# 해피 진혁
+![image](https://github.com/AIVLE11-AIT/AIT-Vision/assets/87623609/87a23b9b-8053-407a-b830-032e85b1eeb0)
