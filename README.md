@@ -17,3 +17,8 @@ https://github.com/AIVLE11-AIT/AIT-Vision/assets/81233061/d40ba389-9178-4857-8c1
 
 # 해피 진혁
 ![image](https://github.com/AIVLE11-AIT/AIT-Vision/assets/87623609/87a23b9b-8053-407a-b830-032e85b1eeb0)
+
+# 3반 차은우 유희권
+<img src="https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/80da4e32-d0d6-41fd-9180-ed8b9caf9d04" width="400" height="500" />
+
+![image](https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/567db927-0464-4874-a3fc-47ee9ca2259d)
