@@ -22,3 +22,6 @@ https://github.com/AIVLE11-AIT/AIT-Vision/assets/81233061/d40ba389-9178-4857-8c1
 <img src="https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/80da4e32-d0d6-41fd-9180-ed8b9caf9d04" width="400" height="500" />
 
 ![image](https://github.com/AIVLE11-AIT/AIT-Vision/assets/92067715/567db927-0464-4874-a3fc-47ee9ca2259d)
+
+# 제로투 추시는 희권님
+![스크린샷 2024-07-08 130539](https://github.com/AIVLE11-AIT/AIT-Vision/assets/162882540/7cffb244-ba0f-49f1-8385-ec01c40f81ed)
