@@ -1,8 +1,8 @@
 {
-  "action_score": 45.01,
-  "hand_count_score": 8.75,
-  "emotion_score": 16.08,
-  "face_gesture_score": 9.64,
-  "body_gesture_score": 10,
-  "eyetrack_gesture_score": 0.54
+  "action_score": 37.22,
+  "hand_count_score": 7.44,
+  "emotion_score": 13.31,
+  "face_gesture_score": 0,
+  "body_gesture_score": 9.15,
+  "eyetrack_gesture_score": 7.32
 }
