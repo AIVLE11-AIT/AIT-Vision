@@ -20,14 +20,17 @@ dependencies:
   'pipe2jpeg' == ^1.0.7
 
 ### 설치 방법
-
 1. 저장소를 클론합니다:
    ```bash
    git clone https://github.com/AIVLE11-AIT/AIT-Vision.git
-   cd video-processing-app
+   cd AIT-Vision
 
 2. 의존성을 설치합니다:
    npm install --dev
 
 3. 서버 실행
    node work1.js
+
+### 패키지 구조
+'work1.js': 비디오 업로드를 처리하고 워커 프로세스를 생성하는 메인 서버 파일입니다.
+'videoProcessor.js': 비디오를 처리하고 정보를 추출하는 워커 스크립트입니다.
