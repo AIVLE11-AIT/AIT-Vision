@@ -12,7 +12,7 @@
 | [HuiGwon Ryu](https://github.com/AnthonyRyu) | [Aivle-noin](https://github.com/Aivle-noin) |
 
 ## 행동 분석 서버
-Vladimir Mandic의 Human이라는 오픈 라이브러리 사용
+Vladimir Mandic의 Human 오픈 라이브러리 사용
  - https://github.com/vladmandic/human
 
 ### 요구 사항
