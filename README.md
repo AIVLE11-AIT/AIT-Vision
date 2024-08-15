@@ -12,8 +12,8 @@
 | [HuiGwon Ryu](https://github.com/AnthonyRyu) | [Aivle-noin](https://github.com/Aivle-noin) |
 
 ## 행동 분석 서버
-Vladimir Mandic의 Human 오픈 라이브러리 사용
- - https://github.com/vladmandic/human
+Vladimir Mandic의 Human 오픈 라이브러리 사용(https://github.com/vladmandic/human)
+ - Face Score(30%), Iris Score(30%), Emotion Score(20%), Body Score(10%), Hand Score(10%)
 
 ### 요구 사항
 ```
