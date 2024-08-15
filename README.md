@@ -4,7 +4,12 @@
 
 ## 🔗Link(시연영상 링크)
  - https://youtu.be/8Z8Ex54-4CM
-<br>
+
+## 👩‍💻Web Developers
+
+|               유희권               |               김진혁               |
+| :---------------------------------: | :-------------------------------------: |
+| [HuiGwon Ryu](https://github.com/AnthonyRyu) | [Aivle-noin](https://github.com/Aivle-noin) |
 
 ## 행동 분석 서버
 Vladimir Mandic의 Human이라는 오픈 라이브러리 사용
