@@ -1,6 +1,6 @@
 # 📊기업맞춤형 AI면접 플랫폼 AIT
 > **KT AIVLE SCHOOL 5기 11조 빅프로젝트**<br/> **개발기간: 2024.07**
->
+<br>
 
 ## 🔗Link(시연영상 링크)
  - https://youtu.be/8Z8Ex54-4CM
